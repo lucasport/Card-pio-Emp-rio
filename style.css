@@ -23,12 +23,12 @@
   
   /*HEADER*/
   header{
-    padding: 32px 0;
+    padding: 32px;
     text-align: center;
   }
   
   header, section{
-    max-width: 620px;
+    max-width: 320px;
     margin: 0 auto;
   }
   
@@ -59,25 +59,6 @@
     font-size: 18px;
     max-width: 300px;
   }
-
-  section .pai{
-    max-width: 620px;
-    justify-content: center;
-    align-items: center;
-  }
-
-  section .filho-left{
-    max-width: 300px;
-    align-items: left;
-    position: absolute;
-  }
-
-  section .filho-right{
-    max-width: 300px;
-    align-items: right;
-    position: absolute;
-    right: 620px;
-  }
   
   ul li{
     margin-bottom: 16px;
@@ -96,11 +77,6 @@
     font-size: 14px;
     line-height: 21px;
 
-  }
-  .details h5{
-    color: rgba(0, 0, 0, 0.6);
-    font-size: 11px;
-    line-height: 19px;
   }
 
   strong .price{
